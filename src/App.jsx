@@ -10,6 +10,7 @@ import Blog from './components/Blog'
 import ClinicInfo from './components/ClinicInfo'
 import CtaBanner from './components/CtaBanner'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -35,6 +36,7 @@ function App() {
         <CtaBanner t={t} />
         <Contact t={t} />
       </main>
+        <Footer t={t} lang={lang} />
     </div>
   )
 }
