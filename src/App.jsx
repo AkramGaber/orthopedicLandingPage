@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { translations } from './translation'
 import Hero from './components/Hero'
+import About from './components/About'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -20,6 +21,7 @@ function App() {
       <Navbar t={t} lang={lang} toggleLang={toggleLang} />
       <main>
         <Hero t={t} />
+        <About t={t} />
       </main>
     </div>
   )

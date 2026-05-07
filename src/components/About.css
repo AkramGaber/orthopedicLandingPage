@@ -1,0 +1,164 @@
+.about {
+  background: var(--bg-white);
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 72px;
+  align-items: center;
+}
+
+/* Visual */
+.about__visual {
+  display: flex;
+  justify-content: center;
+}
+
+.about__img-wrapper {
+  position: relative;
+  width: 340px;
+  height: 420px;
+}
+
+.about__img-main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, var(--surface-alt), #ddf0fb);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.about__img-main::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,174,239,0.08) 0%, transparent 70%);
+}
+
+.about__exp-badge {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: var(--primary);
+  color: white;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  white-space: nowrap;
+}
+
+.about__exp-badge strong {
+  font-size: 14px;
+}
+
+/* Content */
+.about__content {
+  padding-bottom: 24px;
+}
+
+.about__bio {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about__block {
+  margin-top: 28px;
+  padding: 22px;
+  background: var(--bg);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.about__block-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.about__block-title svg {
+  color: var(--accent);
+}
+
+.about__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about__list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.about__list-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.about__hospitals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about__hospital-tag {
+  padding: 6px 14px;
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgba(0,174,239,0.2);
+}
+
+@media (max-width: 900px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+  .about__visual { order: -1; }
+  .about__img-wrapper {
+    width: 280px;
+    height: 340px;
+    margin: 0 auto;
+  }
+}
