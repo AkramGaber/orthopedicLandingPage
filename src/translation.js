@@ -196,7 +196,7 @@ export const translations = {
       cta2: "Contact via WhatsApp",
       stat1: "7+",
       stat1Label: "Years Experience",
-      stat2: "50+",
+      stat2: "5+",
       stat2Label: "Successful Ops",
       stat3: "98%",
       stat3Label: "Patient Satisfaction",
