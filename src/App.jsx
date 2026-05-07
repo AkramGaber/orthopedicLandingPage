@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
+import Blog from './components/Blog'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -26,6 +27,7 @@ function App() {
         <About t={t} />
         <Services t={t} />
         <Testimonials t={t} />
+        <Blog t={t} />
       </main>
     </div>
   )
