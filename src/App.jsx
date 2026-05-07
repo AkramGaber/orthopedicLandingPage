@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import { translations } from './translation'
 import Hero from './components/Hero'
 import About from './components/About'
+import Services from './components/Services'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -22,6 +23,7 @@ function App() {
       <main>
         <Hero t={t} />
         <About t={t} />
+        <Services t={t} />
       </main>
     </div>
   )
