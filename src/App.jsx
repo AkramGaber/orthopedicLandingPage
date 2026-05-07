@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials'
 import Blog from './components/Blog'
 import ClinicInfo from './components/ClinicInfo'
 import CtaBanner from './components/CtaBanner'
+import Contact from './components/Contact'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -32,6 +33,7 @@ function App() {
         <Blog t={t} />
         <ClinicInfo t={t} />
         <CtaBanner t={t} />
+        <Contact t={t} />
       </main>
     </div>
   )
