@@ -344,7 +344,7 @@ export const translations = {
     footer: {
       tagline: "Specialized healthcare you deserve",
       quickLinks: "Quick Links",
-      copyright: "© 2025 Dr. Mohamed Ahmed Sharaf El-deen. All rights reserved.",
+      copyright: "© 2026 Dr. Mohamed Ahmed Sharaf El-deen. All rights reserved.",
       social: "Follow Us",
     },
   },

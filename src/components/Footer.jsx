@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail, BriefcaseMedical } from "lucide-react";
 import "./Footer.css";
 
 const SocialFacebook = () => (
@@ -61,10 +61,7 @@ export default function Footer({ t, lang }) {
         {/* Brand */}
         <div className="footer__brand">
           <div className="footer__logo">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <rect width="28" height="28" rx="8" fill="#00AEEF" />
-              <path d="M14 7v14M7 14h14" stroke="white" strokeWidth="2.5" strokeLinecap="round" />
-            </svg>
+            <BriefcaseMedical />
             <span>{lang === "ar" ? "د. محمد أحمد شرف الدين" : "Dr. Mohamed Ahmed Sharaf El-deen"}</span>
           </div>
           <p className="footer__tagline">{f.tagline}</p>
@@ -108,7 +105,7 @@ export default function Footer({ t, lang }) {
             </div>
             <div className="footer__contact-item">
               <Mail size={14} />
-              <a href="mailto:info@drahmed.com">info@drahmed.com</a>
+              <a href="mailto:Mohamed.sharafeldeen0@gmail.com">Mohamed.sharafeldeen0@gmail.com</a>
             </div>
           </div>
         </div>

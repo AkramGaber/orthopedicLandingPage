@@ -90,7 +90,7 @@ export default function ClinicInfo({ t }) {
                   <path d="M20 28c0-6.627 5.373-12 12-12s12 5.373 12 12c0 8-12 20-12 20S20 36 20 28z" stroke="#0A2540" strokeWidth="2" fill="rgba(0,174,239,0.08)"/>
                   <circle cx="32" cy="28" r="4" fill="#00AEEF"/>
                 </svg>
-                <p>{t.lang === "ar" ? "الخريطة التفاعلية" : "Interactive Map"}</p>
+                <p>{t.lang === "ar" ? "العنوان على الخريطة" : "Get directions on Map"}</p>
                 <span>{c.address}</span>
                 <a
                   href={`https://maps.google.com/?q=${encodeURIComponent(c.address)}`}
