@@ -7,6 +7,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import Blog from './components/Blog'
+import ClinicInfo from './components/ClinicInfo'
 
 function App() {
   const [lang, setLang] = useState("ar");
@@ -28,6 +29,7 @@ function App() {
         <Services t={t} />
         <Testimonials t={t} />
         <Blog t={t} />
+        <ClinicInfo t={t} />
       </main>
     </div>
   )
