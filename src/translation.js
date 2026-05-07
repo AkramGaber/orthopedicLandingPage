@@ -260,13 +260,13 @@ export const translations = {
       items: [
         {
           name: "Akram A.",
-          text: "After years of knee pain, I had surgery with Dr. Ahmed and was walking normally within two weeks. His calm demeanor and clear explanations put me completely at ease.",
+          text: "After years of knee pain, I had surgery with Dr. Mohamed and was walking normally within two weeks. His calm demeanor and clear explanations put me completely at ease.",
           rating: 5,
           label: "Knee Surgery",
         },
         {
           name: "Mohamed S.",
-          text: "As a soccer player with an ACL tear, I was devastated. Thanks to Dr. Ahmed's expertise and follow-up rehab, I was back on the field in under 6 months. Highly recommend.",
+          text: "As a soccer player with an ACL tear, I was devastated. Thanks to Dr. Mohamed's expertise and follow-up rehab, I was back on the field in under 6 months. Highly recommend.",
           rating: 5,
           label: "Sports Injury",
         },
